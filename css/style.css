@@ -1,6 +1,10 @@
 body{
-    background-color: #E9EDF4;
+
     font-family: 'Jost', sans-serif;
+}
+
+.banner-bg{
+    background-color: #E9EDF4;
 }
 
 .nav-link{
@@ -49,9 +53,31 @@ header.nav-fixed {
     padding-bottom: 20px;
     
 }
+
 .nav-active {
     background-color:#fff;
     box-shadow: 5px -1px 12px -5px grey;
     padding-top: 15px;
     padding-bottom: 15px;
+}
+
+.feature-icon{
+    background-color: #E9EDF4;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    line-height: 6.2;
+}
+
+.feature-text{
+    color: #54545f;
+}
+
+.img-section{
+    min-height: 451px;
+}
+
+.seperator{
+    width: 2% !important;
 }
